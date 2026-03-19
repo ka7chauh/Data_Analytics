@@ -15,12 +15,19 @@ Filters rules based on size, events, and lift
 ✅ Final output = interpretable risk segments
 
 Step 1: Select Features and Target
+
 Step 2: Train Gradient Boosting Trees
+
 Handling Imbalance (Very Important)
+
 Step 3: Extract Rules from Trees
+
 Step 4: Remove Duplicate Rules
+
 Step 5: Build Rule Matrix (Very Important Concept)
+
 This creates a matrix like:
+
 
 | Customer | Rule 1 | Rule 2 | Rule 3 |
 |----------|--------|--------|--------|
@@ -31,6 +38,10 @@ This creates a matrix like:
 
 
 1 → customer satisfies the rule
+
 0 → customer does not
+
 Step 6: Lasso to Select Important Rules
+
 Step 7: Evaluate Each Selected Rule
+
