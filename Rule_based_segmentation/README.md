@@ -21,8 +21,13 @@ Step 3: Extract Rules from Trees
 Step 4: Remove Duplicate Rules
 Step 5: Build Rule Matrix (Very Important Concept)
 This creates a matrix like:
-Customer|Rule1|Rule2|Rule3
-C1      |  1  |  0  |  1
+
+| Customer | Rule 1 | Rule 2 | Rule 3 |
+|----------|--------|--------|--------|
+| C1       | 1      | 0      | 0      |
+| C2       | 0      | 1      | 1      |
+| C3       | 1      | 1      | 0      
+
 
 
 1 → customer satisfies the rule
